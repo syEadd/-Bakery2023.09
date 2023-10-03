@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header1{
+    height: 120px;
+    background-color: rgb(52, 52, 240);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.header1 a{
+    color: #fff;
+    font-weight: 700;
+}
+
+.bread{
+    position: relative;
+    padding: 20px;
+    width: 35%;
+}
+.bread ul{
+    display: flex;
+    justify-content: space-between;
+}
+.bread ul li{
+    font-size: 30px;
+}
+.bread_img{
+    width: 400px;
+    height: 100px;
+    background-color: aliceblue;
+    
+}
+.bread_img img{
+    width: 100%;
+    height: 100%;
+}
+.Rye-bread{
+    padding: 20px;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.Conch-bread{
+    justify-content: space-between;
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+ } 
+ .Conch-bread a{
+     color: #000;
+     font-size: 20px;
+     font-weight: 600;
+ }
+ 
+ .header2{
+     display: none;
+     position: absolute;
+     top: 120px;
+     left: 600px;
+     padding: 20px;
+     width: 600px;
+     height: 250px;
+     box-shadow: 2px 3px 2px black;
+     
+ }
+
+ .header2.on{
+    display: flex;
+ }
+ .morning-bread{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .morning-bread img{
+ width: 100%;
+ height: 100%;
+ }
+ .Conch-bread li{
+     padding: 10px;
+ }
+ .Conch-bread li a:hover{
+     cursor: pointer;
+     color: blue;
+ }
+ .Color-yellow a{
+    color: yellow;
+ }

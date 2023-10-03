@@ -3,10 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>제과점</title>
+    <title>파리바게트</title>
+    <link rel="stylesheet" href="./Style.css">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/a19afa0290.js" crossorigin="anonymous"></script>
 </head>
+<style>
+    .bread li{
+        /* border: 2px solid gray; */
+    }
+   .bread li::after{
+    position: absolute;
+    z-index: 20;
+    bottom: 20px;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border-bottom:5px solid firebrick ;
+   }
+</style>
 <body>
     
-    <head>df</head>
+    
+    <header class="header1">
+        <div class="bread">
+            <ul>
+                <li class="Color-yellow Font-n0"><a href="">파바의 약속</a></li>
+                <li class="Font-n1"><a href="">파바 매거진</a></li>
+                <li class="Font-n2"><a href="">파바 스토리</a></li>
+                <li class="Font-n3"><a href="">상품 안내</a></li>
+            </ul>
+        </div>
+        
+        <div class="bread_img">
+            <a href=""><img src="./img/로고3.png"></a>
+        </div>
+        
+        <div class="Rye-bread">
+            <li><a href="">매장 정보</a></li>
+            <li><a href="">주문 정보</a></li>
+            <li><a href="">프로모션</a></li>
+            <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+        </div>
+    </header>
+
+    <header class="header2">
+        <div class="Conch-bread">
+            <div class="croissant">
+                <li><a href="">전체</a></li>
+                <li><a href="">브레드</a></li>
+                <li><a href="">케이크</a></li>
+                <li><a href="">샌드위치/샐러드</a></li>
+            </div>
+            <div class="chocolate-bread">
+                <li><a href="">선물</a></li>
+                <li><a href="">디저트/스낵</a></li>
+                <li><a href="">음료/아이스</a></li>
+                <li><a href="">간편식</a></li>
+            </div>
+            <div class="morning-bread"><a href=""><img src="./img/IMG( 6 ).jpeg" alt=""></a></div>
+        </div>
+        
+    </header>
+
 </body>
 </html>
