@@ -10,17 +10,30 @@
 </head>
 <style>
     .bread li{
-        /* border: 2px solid gray; */
+        height: 100%;
+       
+        width: 100%;
     }
-   .bread li::after{
-    position: absolute;
-    z-index: 20;
-    bottom: 20px;
-    left: 0;
-    width: 30px;
-    height: 30px;
-    border-bottom:5px solid firebrick ;
+
+   
+    .bread li a::after{
+        content: '';
+        display: block;
+        position: absolute;
+        width: 150px;
+        height: 10px;
+        bottom: -20px;
+        background-color: rgb(142, 142, 240);
+        /* padding-bottom: 5px; */
+        /* border-bottom: 6px solid #444; */
+  /* 중심점이 가상 요소의 가운데로 설정 */
+        transform: scaleX(0);
+        transition: transform 500ms;
    }
+   .bread li a:hover::after {
+  transform: scaleX(1);
+}
+
 </style>
 <body>
     
@@ -66,5 +79,22 @@
         
     </header>
 
+    <main class="">
+
+    </main>
+
 </body>
+<script>
+// mouseover,mouseleave
+    document.querySelector(".Font-n3").addEventListener("mouseover",function(e){
+        e.preventDefault();
+        document.querySelector(".header2").classList.add('on')
+    })
+
+    document.querySelector(".header2").addEventListener("mouseleave",function(e){
+        e.preventDefault();
+        document.querySelector(".header2").classList.remove('on')
+    })
+    
+</script>
 </html>
