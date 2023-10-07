@@ -73,9 +73,10 @@ a{
      height: 250px;
      box-shadow: 2px 3px 2px black;
      
- }
-
- .header2.on{
+    }
+    
+    .header2.on{
+     background-color: #fff;
     display: flex;
  }
  .morning-bread{
